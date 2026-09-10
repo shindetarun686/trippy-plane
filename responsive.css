@@ -1,0 +1,22 @@
+/* responsive.css */
+@media (max-width: 600px) {
+  /* Ensure canvas fills the screen */
+  canvas { width: 100vw; height: 100vh; }
+
+  /* Enlarge card and button for touch friendliness */
+  .card {
+    padding: 30px 45px;
+    border-radius: 20px;
+  }
+
+  button {
+    padding: 20px 35px;
+    font-size: 20px;
+  }
+}
+
+/* Larger touch targets for the start button on any screen */
+#start {
+  min-width: 120px;
+  min-height: 48px;
+}
